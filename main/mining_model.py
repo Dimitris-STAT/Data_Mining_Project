@@ -21,7 +21,7 @@ from sklearn.model_selection import KFold, cross_val_score, ShuffleSplit
 
 start = time.time()
 # Import data.csv
-df = pd.read_csv('data.csv')
+df = pd.read_csv('../data/data.csv')
 
 # Preprocessing for association rules
 for column_name in df.columns:
